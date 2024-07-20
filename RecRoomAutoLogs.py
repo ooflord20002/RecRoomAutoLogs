@@ -241,7 +241,7 @@ def auto():
       
           pyautogui.moveTo(69, 83)
 
-          time.sleep(delay)
+          time.sleep(3)
 
           pyautogui.click()
 
