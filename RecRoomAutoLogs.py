@@ -241,9 +241,11 @@ def auto():
       
           pyautogui.moveTo(69, 83)
 
-          time.sleep(3)
+          time.sleep(delay)
 
           pyautogui.click()
+
+          time.sleep(2)
 
 line_bool = False
 line_index = 0
