@@ -51,6 +51,9 @@ def auto():
     sscc = 0
 
     delay = 0.4
+
+    if line_index == num_lines:
+       break
     
     pyperclip.copy(lines[line_index].strip())
     print(f"Copied line {line_index+1}: {lines[line_index].strip()}")
